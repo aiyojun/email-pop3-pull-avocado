@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.p_email_title {
+    display: block;
+    margin: 20px auto 5px 25px;
+    /*color: #8a8a8a;*/
+    color: #537864;
+    /*font-weight: bold;*/
+}
+
+.p_close {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    background: url(resources/cc-close-crude.png);
+    background-size: 100%;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.p_close:focus {
+    outline: 0;
+}
+
+.p_close:hover {
+    background-size: 120%;
+    background-position: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.p_close:active {
+    background-size: 80%;
+    background-position: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.p_input {
+    outline: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+    border: 0;
+    border-bottom: 1px solid #d3d7d4;
+    background-size: 20px 20px;
+    background-position: 5px -1px;
+    padding-bottom: 1px;
+    background-repeat: no-repeat;
+    text-indent: 30px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.p_email {
+ background-image: url(resources/email.png);
+}
+
+.p_server {
+ background-image: url(resources/server.png);
+}
+
+.p_password {
+ background-image: url(resources/password.png);
+
+}
+
+.p_submit, .p_submit:hover, .p_submit:active {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    outline: none;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.p_submit {
+    background-color: #537864;
+    box-shadow: 0px 0px 5px black;
+
+}
+
+.p_submit:hover {
+    background-color: #7abc97;
+    box-shadow: 0px 0px 5px black;
+}
+
+.p_submit:active {
+    background-color: #7abc97;
+    box-shadow: inset 0px 0px 3px black;
+}

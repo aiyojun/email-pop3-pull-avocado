@@ -1,0 +1,68 @@
+body {
+    /*background-color: #7abc97;*/
+}
+
+#root {
+    /*background-color: white;*/
+    color: #232323;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    padding: 20px 0 20px 5px;
+}
+
+.p_close {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    background: url(resources/cc-close-crude.png);
+    background-size: 100%;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.p_close:focus {
+    outline: 0;
+}
+
+.p_close:hover {
+    background-size: 120%;
+    background-position: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.p_close:active {
+    background-size: 80%;
+    background-position: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 4px;
+}
+::-webkit-scrollbar-button {
+    width: 8px;
+    height: 0;
+}
+::-webkit-scrollbar-track {
+    background: 0 0
+}
+::-webkit-scrollbar-thumb {
+    background: #7abc97;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #7abc97;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #7abc97;
+}

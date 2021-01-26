@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="resources/avocado.png" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+	<script src="handle.js"></script>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body id="pid_body" style="background: #7abc97;">
+	<div class="p_menu p_box_shadow">
+		<button id="pid_close" class="p_close" onclick="globalContext.closeApp()"></button>
+		<button id="pid_setting" class="p_setting" onclick="globalContext.openSettings()"></button>
+	</div>
+	<div id="pid_new_email" class="p_new_email" style="display:none;">
+		<h3 style="padding-top: 20px;">您有新邮件！</h3>
+	</div>
+	<div id="pid_email_list" class="p_email_list">
+		<div id="p_email_00" class="p_email p_box_shadow" onclick="createEmailPage(this)">
+			<div class="p_getting">
+				<h3 style="padding-top: 20px; color: #537864;">获取邮件中...</h3>
+			</div>
+<!--			<div class="p_email_flag">-->
+<!--				<div class="p_email_flag_image"></div>-->
+<!--			</div>-->
+<!--			<p class="p_email_generic_font p_email_time">2020-01-21 18:52:00</p>-->
+<!--			<p class="p_email_generic_font p_email_sender">aiyo</p>-->
+<!--			<p class="p_email_generic_font p_email_title">会议邀请通知</p>-->
+		</div>
+	</div>
+	<script type="text/javascript">
+		globalContext.doPull()
+	</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="resources/avocado.png" />
+    <script src="settingPageHandle.js"></script>
+    <link rel="stylesheet" type="text/css" href="setting.css">
+    <title>setting</title>
+</head>
+<body>
+    <button class="p_close" onclick="closeSettings()"></button>
+    <label class="p_email_title">邮件配置</label>
+    <input id="pid_server" class="p_input p_server" type="text" placeholder="  邮件服务器">
+    <input id="pid_email" class="p_input p_email" type="text" placeholder="  邮箱">
+    <input id="pid_password" class="p_input p_password" type="text" placeholder="  密码">
+    <button class="p_submit" onclick="onSubmit()">SUBMIT</button>
+    <script>
+        writeSettings();
+    </script>
+</body>
+</html>

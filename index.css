@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.p_box_shadow {
+	box-shadow: 0px 0px 5px black;
+}
+
+.p_getting {
+	text-align: center;
+}
+
+.p_new_email {
+	width: 95%;
+	height: 80px;
+	text-align: center;
+	color: white;
+}
+
+.p_menu {
+	position: static;
+	width: 95%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	height: 30px;
+	background: white;
+	border-radius: 15px;
+}
+
+/*@-webkit-keyframes belarge {
+	from {background-size: 75%;}
+	to {background-size: 80%;}
+}*/
+
+.p_setting {
+	/*position: absolute;*/
+	/*right: 35px;*/
+	float: right;
+	margin-top: 2.5px;
+	width: 25px;
+	height: 25px;
+	background: url(resources/setting.png);
+	background-size: 100%;
+	border-radius: 50%;
+	border: 0;
+	outline: none;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.p_setting:focus {
+	outline: 0;
+}
+
+.p_setting:hover {
+	background-size: 110%;
+	background-position: center;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.p_setting:active {
+	background-size: 90%;
+	background-position: center;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.p_close {
+	/*position: absolute;*/
+	/*right: 10px;*/
+	float: right;
+	margin-top: 2.5px;
+	width: 25px;
+	height: 25px;
+	background: url(resources/close2.png);
+	background-size: 100%;
+	border-radius: 50%;
+	border: 0;
+	outline: none;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.p_close:focus {
+	outline: 0;
+}
+
+.p_close:hover {
+	background-size: 110%;
+	background-position: center;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.p_close:active {
+	background-size: 90%;
+	background-position: center;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+.p_email_list {
+	width: 100%;
+	margin-top: 10px;
+	/*margin-bottom: 10px;*/
+	overflow-y: scroll;
+	height: calc(100vh - 50px);
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+	height: 4px;
+}
+::-webkit-scrollbar-button {
+	width: 0px;
+	height: 0;
+}
+::-webkit-scrollbar-track {
+	background: 0 0
+}
+::-webkit-scrollbar-thumb {
+	background: #7abc97;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #7abc97;
+}
+::-webkit-scrollbar-thumb:active {
+	background-color: #7abc97;
+}
+
+.p_email {
+	position: relative;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 75px;
+	background: white;
+	border-radius: 7.5px;
+	text-align: right;
+}
+
+.p_email_flag {
+	/*display: inline-block;*/
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	top: 5px;
+	left: 5px;
+	border-radius: 10px;
+	background: white;
+	/*background: #537864;*/
+}
+
+.p_email_flag_image {
+	width: 100%;
+	height: 100%;
+	background: url("resources/avocado.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.p_email_generic_font {
+	/*display: inline-block;*/
+	/*font-weight: 600;*/
+	display: block;
+	/*float: right;*/
+	max-width: calc(100% - 90px);
+	font-weight: bold;
+	font-size: 0.8rem;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #232323;
+	/*vertical-align: middle;*/
+	/*line-height: 15px;*/
+}
+
+.p_email_time {
+	/*position: absolute;*/
+	/*right: 0px;*/
+	/*margin-top: 20px;*/
+	/*padding-top: 5px;*/
+	float: right;
+	padding-top: 10px;
+	color: #537864;
+}
+
+.p_email_sender {
+	/*margin-top: 10px;*/
+	/*position: absolute;*/
+	/*right: 0px;*/
+	/*padding-top: 5px;*/
+	padding-top: 10px;
+	color: #537864;
+	/*padding-top: 5px;*/
+	/*padding-bottom: 5px*/
+}
+
+.p_header {
+	/*display: block;*/
+	/*text-align: right;*/
+	max-height: 65px;
+}
+
+.p_email_title {
+	color: dimgray;
+	padding-top: 8px;
+	float: right;
+	max-width: calc(100% - 90px);
+	font-weight: bold;
+	font-size: 0.9rem;
+	margin-right: 10px;
+	/*margin-top: 8px;*/
+	/*margin-top: 10px;*/
+	/*position: absolute;*/
+	/*right: 0px;*/
+	/*padding-top: 5px;*/
+	/*padding-bottom: 5px;*/
+	/*max-width: calc(100% - 70px);*/
+}
